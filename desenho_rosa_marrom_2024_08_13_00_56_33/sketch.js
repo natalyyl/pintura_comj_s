@@ -7,6 +7,8 @@ function setup() {
 
 function draw() {
   
+
+ fill ("brown");
   stroke("pink");
   fill ("brown");
  
