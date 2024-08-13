@@ -7,15 +7,16 @@ function setup() {
 
 function draw() {
   
-z  fill ("brown");
+  stroke("pink");
+  fill ("brown");
  
   
   // console.log(mouseIsPressed);
   
   if (mouseIsPressed){
     circle(mouseX, mouseY,mouseY, mouseX);
-        circle(mouseY, mouseX, 20, 35);
-          circle(mouseX, mouseY,mouseY, mouseX)
+        point(mouseY, mouseX, 20, 35);
+          rect(mouseX, mouseY,mouseY, mouseX)
 
   }console.log(mouseIsPressed)
 }
